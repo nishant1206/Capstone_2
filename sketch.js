@@ -202,9 +202,9 @@ function draw() {
 
         if (keyDown("r")) {
             obst.x = windowWidth + 50;
-            player.x = windowWidth / 10;
-            player.y = windowHeight / 2;
-            // game_state = "play";
+//             player.x = windowWidth / 10;
+//             player.y = windowHeight / 2;
+//             game_state = "play";
             reset();
         }
     }
